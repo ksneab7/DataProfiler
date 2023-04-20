@@ -154,9 +154,6 @@ validation of improvement:
         - Merge runtime: <from time report text file>
 - <2nd dataset size>
 ...
-
-Time Analysis:
-<Copy/paste from text file reports in "./time_analysis">
 ```
 
 # Unstructured Dataset Throughput Evaluation
