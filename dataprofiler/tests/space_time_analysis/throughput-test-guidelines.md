@@ -121,14 +121,6 @@ data.to_csv('data/time_structured_profiler.csv', index=False)
 This will provide an accurate comparison of time and space measurements*
 
 
-### Obtaining space flamegraphs
-After running `structured_space_time_analysis.py` script there will be `.bin` files created in the `./space_analysis`
-directory. To generate flamegraphs from all the generated `.bin` files:
-```console
-./create_flamegraphs.sh
-```
-
-
 ### Attaching report to PR
 When running these space/time analyses, you can include the following format in your Pull Request description for
 validation of improvement:
