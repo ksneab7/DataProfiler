@@ -53,6 +53,7 @@ Possible `options`:
 * data_format - must be a string, possible choices: "dataframe", "records"
 * selected_columns - columns being selected from the entire dataset, must be a 
   list `["column 1", "ssn"]`
+* sample_nrows - number of rows being sampled during reservoir sampling, must be an integer
 * header - Define the header, for example
 
   * `"header": 'auto'` for auto detection
